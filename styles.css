@@ -1,0 +1,223 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #FCF8F3;
+}
+
+header {
+    background: #27548A;
+    color: #fff;
+    text-align: center;
+}
+
+nav {
+    margin: 1rem 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+section {
+    padding: 2rem;
+}
+
+footer {
+    background: #183B4E;
+    color: #181C14;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+#skills {
+    background-color: #f8f9fa;
+    padding: 4rem 0;
+    margin: auto 100px auto 200px;
+}
+
+
+.profile-pic {
+    width: 200px;
+    height: 240px;
+    border-radius: 50%;
+    margin: 1rem auto;
+    display: block;
+}
+
+.nav-div {
+    margin-top: auto;
+    margin-bottom: 0;
+}
+
+.card {
+    margin-bottom: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.card-text ul {
+    padding-left: 1.5rem;
+}
+
+ul li {
+    color: gray;
+}
+
+.experience .card {
+    margin-bottom: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .experience .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .experience .card-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+  
+  .experience .card-text {
+    margin-bottom: 1rem;
+  }
+  
+  .experience ul {
+    padding-left: 1.5rem;
+  }
+  
+  .experience ul li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .skill-card {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 800px;
+  }
+  
+  .skill-icons {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .skill-item {
+    text-align: center;
+    margin: 15px;
+  }
+  
+  .carousel-item {
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .carousel-caption {
+    position: static;
+    color: #333;
+  }
+  
+  .carousel-caption {
+    position: static; /* Prevents overlapping with the carousel */
+    padding: 1rem;
+  }
+  
+  .skill-card {
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .skill-icons {
+    display: flex;
+    flex-wrap: wrap; /* Ensures items wrap to the next line if needed */
+    justify-content: center;
+    gap: 1rem; /* Adds spacing between skill items */
+  }
+  
+  .skill-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px; /* Ensures consistent width for each skill item */
+  }
+  
+  .skill-item i {
+    font-size: 2rem; /* Adjust icon size */
+    color: #333;
+  }
+  
+  .skill-item p {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: #555;
+    text-align: center;
+  }
+
+/* Projects section */
+#projects .card {
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#projects .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+#projects .card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+#projects .btn-primary {
+  background-color: #007bff;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+#projects .btn-primary:hover {
+  background-color: #0056b3;
+}
+
+#contact {
+  background-color: #f8f9fa;
+  padding-bottom: 300px;
+}
+
+.skill-icon {
+  color: #1B56FD;
+}
