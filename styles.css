@@ -16,49 +16,27 @@ nav {
     margin: 1rem 0;
 }
 
+.nav-div {
+    margin-top: auto;
+    margin-bottom: 0;
+}
+
+
 nav a {
     color: #fff;
     text-decoration: none;
     margin: 0 1rem;
 }
 
-section {
-    padding: 2rem;
-}
+/* About section*/
 
-footer {
-    background: #183B4E;
-    color: #181C14;
-    text-align: center;
-    padding: 1rem 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
-th, td {
-    padding: 10px;
-    text-align: left;
-}
-
-#skills {
-    background-color: #f8f9fa;
+#about {
+    background-color: #F2F2F2;
     padding: 4rem 0;
-    margin: auto 100px auto 200px;
 }
 
-
-.profile-pic {
-    width: 200px;
-    height: 240px;
-    border-radius: 50%;
-    margin: 1rem auto;
-    display: block;
-}
-
-.nav-div {
-    margin-top: auto;
-    margin-bottom: 0;
+ul li {
+    color: gray;
 }
 
 .card {
@@ -83,39 +61,13 @@ th, td {
     padding-left: 1.5rem;
 }
 
-ul li {
-    color: gray;
+/* Skills section */
+
+#skills {
+    background-color: #FEF3E2;
+    padding: 4rem 0;
 }
 
-.experience .card {
-    margin-bottom: 1.5rem;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
-  
-  .experience .card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  }
-  
-  .experience .card-title {
-    font-size: 1.3rem;
-    font-weight: bold;
-  }
-  
-  .experience .card-text {
-    margin-bottom: 1rem;
-  }
-  
-  .experience ul {
-    padding-left: 1.5rem;
-  }
-  
-  .experience ul li {
-    margin-bottom: 0.5rem;
-  }
   
   .skill-card {
     background-color: rgba(255, 255, 255, 0.9);
@@ -185,7 +137,24 @@ ul li {
     text-align: center;
   }
 
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+.profile-pic {
+    width: 200px;
+    height: 240px;
+    border-radius: 50%;
+    margin: 1rem auto;
+    display: block;
+}
+
 /* Projects section */
+#projects {
+  background-color: #F8F8E1;
+  padding: 4rem 0;
+}
 #projects .card {
   border: none;
   border-radius: 10px;
@@ -213,11 +182,19 @@ ul li {
   background-color: #0056b3;
 }
 
+/* Contact section */
+
 #contact {
   background-color: #f8f9fa;
-  padding-bottom: 300px;
+  padding-bottom: 4rem;
 }
 
-.skill-icon {
-  color: #1B56FD;
+footer {
+    background: #183B4E;
+    color: #181C14;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }

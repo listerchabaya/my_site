@@ -40,18 +40,14 @@
     </div>
   </header>
 
-  <section id="about" class="py-5">
+  <section id="about">
     <div class="container">
-      <h2 class="text-center mb-4">About Me</h2>
-      <div class="row">
-        <div class="col-md-8 mx-auto">
+      <h2>About Me</h2>
           <p>
             What is Lorem Ipsum?
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
           </p>
-        </div>
-      </div>
-      <h3 class="text-center mt-5">Education</h3>
+      <h3>Education</h3>
       <div class="row mt-4">
         <div class="col-md-4">
           <div class="card">
@@ -59,6 +55,8 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
               <h5 class="card-title">University of Zimbabwe</h5>
               <p class="card-text">
                 Bachelor of Science in Computer Science<br>
+              </p>
+              <p class="card-text">
                 Period: 2022 - 2026 (<em>Expected year of graduation</em>)
               </p>
             </div>
@@ -69,6 +67,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
             <div class="card-body">
               <h5 class="card-title">St Anthony's High School</h5>
               <p class="card-text">
+                Advanced Level<br>
                 Period: 2020 - 2021<br>
                 <ul>
                   <li>Pure Mathematics</li>
@@ -84,8 +83,11 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
             <div class="card-body">
               <h5 class="card-title">Mashoko High School</h5>
               <p class="card-text">
+                Ordinary Level<br>
                 Period: 2016 - 2019<br>
-                9 Passed O'Level Subjects
+              </p>
+              <p class="card-text">
+                9 O'Level Subjects
               </p>
             </div>
           </div>
@@ -94,7 +96,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
     </div>
   </section>
 
-  <section id="skills" class="py-5 bg-light">
+  <section id="skills">
     <div class="container">
       <h2 class="text-center mb-4">My Skills</h2>
       <div id="carouselExampleDark" class="carousel carousel-dark slide">
@@ -226,15 +228,94 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
     </div>
   </section>
 
-  <section id="contact" class="py-5 bg-light">
+  <!-- <section id="contact">
     <div class="container">
       <h2 class="text-center mb-4">Contact</h2>
       <p class="text-center">Email: <a href="mailto:listerchabaya@gmail.com">listerchabaya@gmail.com</a></p>
       <p class="text-center">GitHub: <a href="https://github.com/listerchabaya" target="_blank">github.com/listerchabaya</a></p>
+      <p class="text-center">LinkedIn: <a href="https://github.com/listerchabaya" target="_blank">github.com/listerchabaya</a></p>
+      <p class="text-center">facebook: <a href="https://github.com/listerchabaya" target="_blank">github.com/listerchabaya</a></p>
+      <p class="text-center">Instagram: <a href="https://github.com/listerchabaya" target="_blank">github.com/listerchabaya</a></p>
+      <p class="text-center">X: <a href="https://github.com/listerchabaya" target="_blank">github.com/listerchabaya</a></p>
     </div>
-  </section>
+  </section> -->
 
-  <footer class="py-3 text-center">
+  <section id="contact" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-4">Get In Touch</h2>
+    
+    <div class="row">
+      <!-- Contact Form -->
+      <div class="col-md-6 mb-4">
+        <div class="card shadow-sm">
+          <div class="card-body">
+            <h3 class="card-title mb-3">Send Me a Message</h3>
+            <form id="contactForm">
+              <div class="mb-3">
+                <input type="text" class="form-control" placeholder="Your Name" required>
+              </div>
+              <div class="mb-3">
+                <input type="email" class="form-control" placeholder="Your Email" required>
+              </div>
+              <div class="mb-3">
+                <input type="text" class="form-control" placeholder="Subject">
+              </div>
+              <div class="mb-3">
+                <textarea class="form-control" rows="4" placeholder="Your Message" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary w-100">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Contact Information -->
+      <div class="col-md-6">
+        <div class="card shadow-sm">
+          <div class="card-body">
+            <h3 class="card-title mb-3">Contact Information</h3>
+            <div class="d-flex align-items-center mb-3">
+              <i class="fas fa-envelope fa-2x text-primary me-3"></i>
+              <div>
+                <h5 class="mb-0">Email</h5>
+                <a href="mailto:listerchabaya@gmail.com">listerchabaya@gmail.com</a>
+              </div>
+            </div>
+            <div class="d-flex align-items-center mb-3">
+              <i class="fas fa-map-marker-alt fa-2x text-primary me-3"></i>
+              <div>
+                <h5 class="mb-0">Location</h5>
+                <p class="mb-0">University of Zimbabwe, Harare</p>
+              </div>
+            </div>
+            
+            <h4 class="mt-4 mb-3">Connect With Me</h4>
+            <div class="social-links d-flex gap-3">
+              <a href="https://github.com/listerchabaya" target="_blank" class="social-icon">
+                <i class="fab fa-github fa-2x"></i>
+              </a>
+              <a href="https://linkedin.com/in/yourprofile" target="_blank" class="social-icon">
+                <i class="fab fa-linkedin fa-2x"></i>
+              </a>
+              <a href="https://facebook.com/yourprofile" target="_blank" class="social-icon">
+                <i class="fab fa-facebook fa-2x"></i>
+              </a>
+              <a href="https://instagram.com/yourprofile" target="_blank" class="social-icon">
+                <i class="fab fa-instagram fa-2x"></i>
+              </a>
+              <a href="https://twitter.com/yourprofile" target="_blank" class="social-icon">
+                <i class="fab fa-twitter fa-2x"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <footer class="text-center">
     <p>&copy; 2025 Lister Chabaya. All rights reserved.</p>
   </footer>
 
