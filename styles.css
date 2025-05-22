@@ -139,7 +139,7 @@ ul li {
   .skill-item p {
     margin-top: 0.5rem;
     font-size: 0.9rem;
-    color: #555;
+    color: gray;
     text-align: center;
   }
 
@@ -153,6 +153,7 @@ th, td {
     height: 240px;
     border-radius: 50%;
     margin: 1rem auto;
+    margin-left: 100px;
     display: block;
 }
 
@@ -178,6 +179,10 @@ th, td {
   object-fit: cover;
 }
 
+#projects .card-text {
+  color: #555;
+}
+
 #projects .btn-primary {
   background-color: #007bff;
   border: none;
@@ -193,6 +198,10 @@ th, td {
 #contact {
   background-color: #f8f9fa;
   padding-bottom: 4rem;
+}
+
+.social-icon {
+  padding: 0 35px 0 0;
 }
 
 footer {
