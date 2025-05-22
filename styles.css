@@ -16,11 +16,17 @@ nav {
     margin: 1rem 0;
 }
 
+#nav-link {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-weight: 800;
+}
+
 .nav-div {
     margin-top: auto;
     margin-bottom: 0;
 }
-
 
 nav a {
     color: #fff;
@@ -191,7 +197,7 @@ th, td {
 
 footer {
     background: #183B4E;
-    color: #181C14;
+    color: #fff;
     text-align: center;
     padding: 1rem 0;
     position: fixed;
